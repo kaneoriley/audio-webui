@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Kane modifications
+export PYTORCH_ENABLE_MPS_FALLBACK=1
+
 # Unable to check the testing here. As i do not have a linux system, and not enough storage on C: to install wsl
 
 if which python3.10 >/dev/null; then
