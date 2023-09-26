@@ -2,3 +2,5 @@ data/**
 !**/.placeholder
 *.wav
 ./extensions/**
+**/__pycache__
+venv/
